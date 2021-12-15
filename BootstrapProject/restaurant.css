@@ -1,0 +1,26 @@
+.container-sm, .container  {
+    width: 4px;
+    margin-top: 20px;
+}
+header{
+    background-color: rgba(238, 238, 238, 0.767);
+
+}
+.section1{
+    margin: 10px;
+}
+h3{
+    text-align: center;
+} 
+h4, p{
+    margin:auto;
+    width: 50%;
+}
+.card > img{
+    width: 285px;
+    height: 180px;
+}
+h1{
+    text-align:center;
+
+}

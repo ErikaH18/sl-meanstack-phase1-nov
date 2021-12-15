@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ColRestaurant</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="restaurant.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header id="header" class="py-2">
+    <div class="container-h d-flex flex-wrap justify-content-center">
+      <address>
+        <strong>Location</strong>
+        1355 Market St, Suite 900 |
+        San Francisco, CA 94103 |
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+      </address>
+    </div>
+  </header>
+  <nav id="navbar-2" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">COLfood</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#AboutUs">AboutUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#specialties">Specialties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hoursLocation">Hours and Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reservations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ContactUs">Contact Us</a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="d-flex nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Other Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Catering</a></li>
+              <li><a class="dropdown-item" href="#">Events</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Order Online</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="AboutUs" autofocus="AboutUs">
+    <div class="container-sm py-4 border-bottom" data-bs-target="#navbar-2">
+      <h3 class="py-4">
+        COLFood Restaurant
+      </h3>
+      <div class="row">
+        <div class="col col-md-4 col-sm-12">
+          <h4>Welcome to COLFood</h4>
+          <p>We specialize in typical Colombian dishes. Our goal is to bring the rich cusine flavors form diferent regions of Colombia to you.</p>
+          <p>We offer dishes like La Bandeja Paisa, Empanadas, Sancocho, Fritanga, Arroz con Pollo, Pandebono, and Arepas</p>
+        </div>
+        <div class="col col-md-8 col-sm-12">
+          <div id="carouselRestaurantFood" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselRestaurantFood" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselRestaurantFood" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselRestaurantFood" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QqilhrE9YhQ7q5yJTb6gHsQ1T5rar-M3FQ&usqp=CAU"
+                  class="img-fluid d-block w-100" alt="Colombian food image">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYDT9Og_v8z3UhhyJQHqxK3XWDec17_j9tew&usqp=CAU"
+                  class="img-fluid d-block w-100" alt="Colombian food image 2">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc3XkLwRNo_hzMPNwLs8N2bUEYbmQPiyQwzw&usqp=CAU"
+                  class="img-fluid d-block w-100" alt="Colombian food image 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselRestaurantFood"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselRestaurantFood"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="specialties" class="section1">
+    <div class="container border-bottom" data-bs-target="#navbar-2">
+      <div class="row g-3 mb-4">
+        <h2>Specialty Dishes</h2>
+        <div class="col col-md-4 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWCXms7RjQgbetF4V9BWuL4QVaLCDCb0YVg&usqp=CAU"
+              class="card-img-top" alt="Bandeja Paisa image">
+            <div class="card-body">
+              <h5 class="card-title">Bandeja Paisa</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-4 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="card-img-top" alt="Ajiaco image">
+            <div class="card-body">
+              <h5 class="card-title">Ajiaco</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-4 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAlDaMmkfft75JFUKN9p9TjcKI1anYAhoG5A&usqp=CAU"
+              class="card-img-top" alt="empanadas image">
+            <div class="card-body">
+              <h5 class="card-title">Empanadas</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-6 col-sm-12 border-end">
+          <table id="hoursLocation" class="table p-3 mb-2 table-striped table table-bordered" style="width:350px;">
+            
+            <thead class="thead">
+              <h5>Hours and Location</h5>
+              <th>Day</th>
+              <th>Hours</th>
+            </thead>
+            <tbody class="table table-striped">
+              <tr>
+                <td>Monday</td>
+                <td>9:00 AM - 2:00 PM</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>9:00 AM - 5:00 PM</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>9:00 AM - 5:00 PM</td>              
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>9:00 AM - 5:00 PM</td>
+              </tr>
+              <tr>
+                <td>Friday</td<>
+                  <td>9:00 AM - 10:00 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>9:00 AM - 10:00 PM</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Closed/td>
+              </tr>
+              <tr>
+                <td colspan="2"><address>
+                  <strong>COLFood Location</strong><br>
+                  1355 Market St, Suite 900<br>
+                  San Francisco, CA 94103<br>
+                  <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                  <strong>email</strong>
+                  <a href="mailto:colrestaurant@restaurant.com">colrestaurant@restaurant.com</a>
+                </address></td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col col-md-6 col-sm-12">
+          <div class="container border border-secondary p-3 mb-2 bg-light text-dark" data-bs-target="#navbar-2">
+            <h3>Contact Us</h3>
+            <form id="ContactUs" class="row g-3 needs-validation" novalidate>
+              <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Your Name" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Email</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Please provide a valid email.
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom05" class="form-label">Phone #</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                  Please provide a valid phone number.
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </form>   
+          </div>
+  
+        </div>
+      </div>     
+    </div>    
+  </section>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="text-muted">© 2021 Company, Inc</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
